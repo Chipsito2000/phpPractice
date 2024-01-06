@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <title>Pagina web M.P.C.</title>
+    <link rel="shortcut icon" href="./Logos/M.P.C.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./Barra.css">
+    <link rel="stylesheet" href="./Formulario.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+
+                <li><a href="">Solicitudes</a>
+                    <ul>
+                        <li><a href="">Empleados</a></li>
+                        <li><a href="">Empresas</a></li>
+                    </ul>
+                </li>
+                <li> <a href="">Testimonios</a>
+                    <ul>
+                        <li> <a href="">Nuestros clientes</a></li>
+                        <li><a href="">Preguntas frecuentes</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acerca de</a>
+                    <ul>
+                        <li><a href="./Nuestro equipo.html">Nuestro equipo</a></li>
+                        <li><a href="./Contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li style="float:right"><a href="/Proyecto/Login.html">Registro o inicio de seción</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <br> <br> <br> <br>
+        <img class="derecha" src="./Logos/IMAGEN DE CONTRATACION.jpg" width="300px" height="300px" /> <img class="izquierda" src="./Logos/Logo.gif" width="300px" height="300px" />
+        <br>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <p><strong><h1>Registrarse</h1></strong></p>
+                <li>
+                    <label for="name">Nombres:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="Ape">Apellidos:</label>
+                    <input type="text" id="apellido" name="user_apellido" />
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="cont">Contraseña:</label>
+                    <input type="password" id="pasword" name="user_pasword" />
+                </li>
+                <li>
+                    <select name="OS">
+                  <option selected value="0"> Elige como te quieres registrar </option>
+                      <option value="1">Empleado</option> 
+                      <option value="2">Empresa</option> 
+               </select>
+                </li>
+                <li class="button">
+                    <button type="submit">Registrarse</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <section>
+        <br> <br> <br>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <p><strong><h1>Iniciar sesión</h1></strong></p>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="cont">Contraseña:</label>
+                    <input type="password" id="pasword" name="user_password" />
+                </li>
+                <li class="button">
+                    <button type="submit">Iniciar sesión</button>
+                </li>
+            </ul>
+        </form>
+        <br>
+    </section>
+</body>
+
+</html>
